@@ -1,0 +1,107 @@
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.information{
+  position: relative;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url('../img/electronics.jpg');
+  width: auto;
+  height: 800px;
+}
+.info{
+  text-align: center;
+  padding: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+}
+.info p{
+  color:black;
+}
+.info2{
+text-align: center;
+font-size: 30px;
+color:black;
+font-family: 'Noto Sans', sans-serif;
+}
+#kb {
+background: url(/img/keyboard_bg.jpg)
+no-repeat top center #fcfcfc;
+height: 119px;
+color: #182632;
+font-size: 36px;
+text-align: center;
+ }
+.wrap {
+width: 960px;
+margin: 0 auto;
+position: relative;
+}
+#kb span {
+    font-size: 88px;
+    margin: 0 27px;
+    position: relative;
+    top: 11px;
+}
+#garants {
+    text-align: center;
+    padding: 40px 0 35px;
+}
+.dost{
+  margin-top: 90px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  height: 200px;
+  
+}
+.textinfo{
+  margin-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.textinfo2{
+ 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+.dost2{
+  margin-top: 90px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  height: 220px;
+  text-align: center;
+}
+
+#dostoinstva .title{
+  text-align: center;
+    padding: 40px 0 35px;
+}
+#icon{
+  padding: 10px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 560px){
+.info {
+  padding: 0px !important;
+}
+}
+@media only screen and (max-width: 560px){
+.info {
+  padding: 0px !important;
+}
+}
